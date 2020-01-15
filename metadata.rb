@@ -18,3 +18,5 @@ chef_version '>= 14.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/ngnix_node_cookbook'
+depends 'nodejs', '~> 5.0.0'
+depends 'apt'
